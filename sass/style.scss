@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* GLOBAL STYLES*/
 h1 {
   font-size: 3.5rem;
@@ -7,6 +8,16 @@ h1 {
 }
 .hero{
   text-shadow: 0px 0px 7px black;
+=======
+/* GLOBAL STYLES
+-------------------------------------------------- */
+h1 {
+  text-shadow: 2px 2px black;
+}
+
+.hero {
+  text-shadow: 2px 2px black;
+>>>>>>> 44b176fb057daf11ffbee9459ca97d1f36671fbe
 }
 /* Padding below the footer and lighter body text */
 
@@ -15,6 +26,7 @@ body {
   padding-bottom: 3rem;
   color: #5a5a5a;
 }
+<<<<<<< HEAD
 /* navbar*/
 .logobella {
   height: 50px;
@@ -24,6 +36,26 @@ body {
 
 /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
+=======
+
+/* Navbar*/
+
+.logobella {
+  height: 2.5rem;
+  background-color: white;
+  border-radius: 7px;
+
+}
+
+.contact {
+  text-decoration: none;
+  color: white;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+>>>>>>> 44b176fb057daf11ffbee9459ca97d1f36671fbe
 
 /* Carousel base class */
 .carousel {
@@ -37,13 +69,18 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
+<<<<<<< HEAD
   height: 60vh;
+=======
+  height: 50vh;
+>>>>>>> 44b176fb057daf11ffbee9459ca97d1f36671fbe
   object-fit: cover;
 }
 .carousel-item > img {
   position: absolute;
   top: 0;
   left: 0;
+<<<<<<< HEAD
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -51,6 +88,18 @@ body {
 
 /* MARKETING CONTENT
   -------------------------------------------------- */
+=======
+  min-width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+>>>>>>> 44b176fb057daf11ffbee9459ca97d1f36671fbe
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
@@ -62,6 +111,7 @@ body {
 }
 /* rtl:begin:ignore */
 .marketing .col-lg-4 p {
+<<<<<<< HEAD
   margin-right: 0.75rem;
   margin-left: 0.75rem;
 }
@@ -69,6 +119,20 @@ body {
 
 /* Featurettes
   ------------------------- */
+=======
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.rounded-circle {
+  object-fit: cover;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+>>>>>>> 44b176fb057daf11ffbee9459ca97d1f36671fbe
 
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
@@ -79,6 +143,7 @@ body {
   font-weight: 300;
   line-height: 1;
   /* rtl:remove */
+<<<<<<< HEAD
   letter-spacing: -0.05rem;
 }
 .img{
@@ -92,6 +157,14 @@ body {
 
 /* RESPONSIVE CSS
   -------------------------------------------------- */
+=======
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+>>>>>>> 44b176fb057daf11ffbee9459ca97d1f36671fbe
 
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
@@ -99,6 +172,7 @@ body {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
     line-height: 1.4;
+<<<<<<< HEAD
   }
 
   .featurette-heading {
@@ -110,4 +184,17 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
+=======
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+>>>>>>> 44b176fb057daf11ffbee9459ca97d1f36671fbe
 }
